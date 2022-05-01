@@ -1,0 +1,21 @@
+{
+    "step_limit": 1000,
+    "starting_position": 1,
+    "tape": "xxxxxxxxxxx",
+    "commands": [
+        {
+            "current_state": "x",
+            "current_symbol": "x",
+            "new_symbol": "y",
+            "direction": "R", 
+            "new_state": "y"
+        },
+        {
+            "current_state": "y",
+            "current_symbol": "y",
+            "new_symbol": "x",
+            "direction": "L", 
+            "new_state": "x"
+        }
+    ]
+}
