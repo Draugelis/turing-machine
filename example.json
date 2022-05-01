@@ -1,0 +1,118 @@
+{
+    "step_limit": 10000,
+    "starting_position": 7,
+    "tape": "000100000000000000001111111000000000000000010000",
+    "commands": [
+    {
+        "current_state": "0",
+        "current_symbol": "0",
+        "new_symbol": "0",
+        "direction": "R",
+        "new_state": "0"
+    },
+    {
+        "current_state": "0",
+        "current_symbol": "1",
+        "new_symbol": "0",
+        "direction": "R",
+        "new_state": "11"
+    },
+    {
+        "current_state": "11",
+        "current_symbol": "1",
+        "new_symbol": "1",
+        "direction": "R",
+        "new_state": "11"
+    },
+    {
+        "current_state": "11",
+        "current_symbol": "0",
+        "new_symbol": "1",
+        "direction": "R",
+        "new_state": "2"
+    },
+    {
+        "current_state": "2",
+        "current_symbol": "0",
+        "new_symbol": "0",
+        "direction": "L",
+        "new_state": "3"
+    },
+    {
+        "current_state": "2",
+        "current_symbol": "1",
+        "new_symbol": "1",
+        "direction": "L",
+        "new_state": "4"
+    },
+    {
+        "current_state": "3",
+        "current_symbol": "1",
+        "new_symbol": "1",
+        "direction": "L",
+        "new_state": "3"
+    },
+    {
+        "current_state": "3",
+        "current_symbol": "0",
+        "new_symbol": "0",
+        "direction": "R",
+        "new_state": "0"
+    },
+    {
+        "current_state": "4",
+        "current_symbol": "1",
+        "new_symbol": "0",
+        "direction": "L",
+        "new_state": "5"
+    },
+    {
+        "current_state": "4",
+        "current_symbol": "0",
+        "new_symbol": "0",
+        "direction": "L",
+        "new_state": "4"
+    },
+    {
+        "current_state": "5",
+        "current_symbol": "1",
+        "new_symbol": "1",
+        "direction": "L",
+        "new_state": "5"
+    },
+    {
+        "current_state": "5",
+        "current_symbol": "0",
+        "new_symbol": "1",
+        "direction": "L",
+        "new_state": "12"
+    },
+    {
+        "current_state": "12",
+        "current_symbol": "0",
+        "new_symbol": "0",
+        "direction": "R",
+        "new_state": "6"
+    },
+    {
+        "current_state": "12",
+        "current_symbol": "1",
+        "new_symbol": "1",
+        "direction": "R",
+        "new_state": "0"
+    },
+    {
+        "current_state": "6",
+        "current_symbol": "1",
+        "new_symbol": "1",
+        "direction": "R",
+        "new_state": "6"
+    },
+    {
+        "current_state": "6",
+        "current_symbol": "0",
+        "new_symbol": "0",
+        "direction": "L",
+        "new_state": "4"
+    }
+]}
